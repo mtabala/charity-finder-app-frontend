@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import Homepage from "./pages/Homepage";
 import Header from "./components/Header/Header";
 import CharityPage from "./pages/CharityPage";
 import "./App.scss";
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/:charityId" element={<CharityPage />} />
       </Routes>
     </BrowserRouter>

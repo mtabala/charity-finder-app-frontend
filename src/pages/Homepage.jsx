@@ -1,4 +1,4 @@
-import "./HomePage.scss";
+import "./Homepage.scss";
 // import Header from "../components/Header/Header";
 // import { useState, useEffect } from "react";
 // import { useParams } from "react-router-dom";
@@ -8,7 +8,7 @@ import Footer from "../components/Footer/Footer";
 // import Footer from "../components/Footer/Footer";
 // import axios from "axios";
 
-function HomePage() {
+function Homepage() {
   return (
     <div className="homepage">
       <Hero />
@@ -17,4 +17,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Homepage;
