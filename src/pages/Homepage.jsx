@@ -3,16 +3,15 @@ import "./Homepage.scss";
 // import { useState, useEffect } from "react";
 // import { useParams } from "react-router-dom";
 import Hero from "../components/Hero/Hero";
-import Footer from "../components/Footer/Footer";
+// import Footer from "../components/Footer/Footer";
 // import CharityList from "../components/CharityList/CharityList";
 // import Footer from "../components/Footer/Footer";
 // import axios from "axios";
 
-function HomePage() {
+function Homepage() {
   return (
     <div className="homepage">
       <Hero />
-      <Footer />
     </div>
   );
 }

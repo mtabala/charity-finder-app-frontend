@@ -1,9 +1,13 @@
 import "./Header.scss";
+import logo from "../../assets/images/hand-care-logo.jpg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header className="header">
-      {/* <Link>Logo</Link> */}
+      <Link className="logo" to="/" src={logo}>
+        Logo
+      </Link>
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__list-item">Charities</li>
