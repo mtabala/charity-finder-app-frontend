@@ -2,12 +2,22 @@
 
 .footer {
   background-color: $background-color-dark;
-  margin: -2rem;
-  height: 20vh;
+  height: 18vh;
   padding: 2rem;
 
   &__text {
     color: #fff;
+    font-weight: 700;
     padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+
+    &--small {
+      font-size: 0.875rem;
+      color: #fff;
+      text-align: right;
+      padding-bottom: 0.5rem;
+    }
   }
 }

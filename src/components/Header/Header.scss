@@ -1,7 +1,24 @@
 @use "../../assets/partials/variables" as *;
 
 .nav {
-  background-color: $background-color-light;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+
+  &__title {
+    text-transform: uppercase;
+    color: $background-color-dark;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 2.3rem;
+    margin-left: -14rem;
+  }
+
+  &__logo {
+    height: 100px;
+    background-color: $background-color-light;
+  }
 
   &__list {
     display: flex;
@@ -11,7 +28,9 @@
   }
 
   &__list-item {
+    display: flex;
     padding: 1rem;
+    align-items: center;
     &:hover {
       background-color: $background-color-dark;
       color: #fff;
@@ -19,6 +38,7 @@
     }
     &--highlighted {
       background-color: $background-color-medium;
+      border-radius: 4px;
     }
   }
 }
