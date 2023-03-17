@@ -3,8 +3,8 @@ import "./Footer.scss";
 function Footer() {
   return (
     <div className="footer">
-      <p className="footer__text">Address</p>
-      <p className="footer__text">All rights reserved</p>
+      <p className="footer__text">Help us change the world!</p>
+      <p className="footer__text--small">All rights reserved</p>
     </div>
   );
 }
