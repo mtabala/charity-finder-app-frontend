@@ -1,0 +1,23 @@
+@use "../../assets/partials/variables" as *;
+
+.nav {
+  background-color: $background-color-light;
+
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    padding: 1rem;
+  }
+
+  &__list-item {
+    padding: 1rem;
+    &:hover {
+      background-color: $background-color-dark;
+      color: #fff;
+    }
+    &--highlighted {
+      background-color: $background-color-medium;
+    }
+  }
+}

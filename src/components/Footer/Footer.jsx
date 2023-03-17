@@ -1,12 +1,12 @@
-import "./Footer.scss"
+import "./Footer.scss";
 
-function Footer () {
+function Footer() {
+  return (
+    <div className="footer">
+      <p className="footer__text">Address</p>
+      <p className="footer__text">All rights reserved</p>
+    </div>
+  );
+}
 
-    return (
-        <div>
-
-        </div>
-    );
-};
-
-export default Footer
+export default Footer;
