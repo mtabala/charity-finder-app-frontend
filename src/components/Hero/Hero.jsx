@@ -1,12 +1,11 @@
-import "./Hero.scss"
+import "./Hero.scss";
 
-function Hero () {
+function Hero() {
+  return (
+    <div className="hero">
+      <h1 className="hero__title">Keromage Charity Finder</h1>
+    </div>
+  );
+}
 
-    return (
-        <div>
-
-        </div>
-    );
-};
-
-export default Hero
+export default Hero;
