@@ -4,7 +4,7 @@
     "charity": "Feeding America",
     "location": "Chicago, Illinois",
     "url": "https://www.feedingamerica.org",
-    "image": "",
+    "image": "../assets/images/feedingAmerica.jpg",
     "description": "Feeding America is the largest charity working to end hunger in the United States. We partner with food banks, food pantries, and local food programs to bring food to people facing hunger. We advocate for policies that create long-term solutions to hunger.",
     "field": "Food Charity",  
     "testimonials": [
@@ -33,7 +33,7 @@
     "charity": "Boys and Girls Clubs of America",
     "location": "Atlanta, GA ",
     "url": "https://www.bgca.org",
-    "image": "",
+    "image": "../assets/images/children.jpg",
     "description": "We believe every kid has what it takes. The mission and core beliefs of Boys & Girls Clubs fuel our commitment to promoting safe, positive and inclusive environments for all. Boys & Girls Clubs of America supports all youth and teens – of every race, ethnicity, gender, gender expression, sexual orientation, ability, socio-economic status, and religion – in reaching their full potential. ",
     "field": "Youth Needs",  
     "testimonials": [
@@ -178,7 +178,7 @@
     "charity": "World Wildlife Federation",
     "location": "Washington, DC",
     "url": "https://www.worldwildlife.org/",
-    "image": "",
+    "image": "./Data/",
     "description": "Our mission is to conserve nature and reduce the most pressing threats to the diversity of life on Earth. ",
     "field": "Concervation",  
     "testimonials": [
