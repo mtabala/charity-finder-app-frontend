@@ -15,6 +15,7 @@
     &:hover {
       background-color: $background-color-dark;
       color: #fff;
+      cursor: pointer;
     }
     &--highlighted {
       background-color: $background-color-medium;
