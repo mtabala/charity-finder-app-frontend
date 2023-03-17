@@ -1,0 +1,26 @@
+@use "../../assets/partials/variables" as *;
+
+.title{
+    font-size: 2rem;
+}
+.card{
+    background-color: $background-color-medium;
+    display: flex;
+    
+
+    &__header{
+        font-size: 1.5rem;
+    }
+    &__image{
+        width: 4rem;
+    }
+    &__pic{
+        background-color: green;
+    }
+    &__upper-text{
+        font-size: 1.25rem;
+    }
+    &__lower-text{
+        font-size: 1.25rem;
+    }
+}
