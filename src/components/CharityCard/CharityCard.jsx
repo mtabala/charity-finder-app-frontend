@@ -1,11 +1,11 @@
 import { Link, useParams } from "react-router-dom"
 import "./CharityCard.scss"
 
-function CharityCard (charities) {
+function CharityCard ({organizations, currentOrganization}) {
     return (
         <div className="card">
             <h1 className="title">CHARITIES</h1>
-            {charities
+            {organizations
             .filter((charity)=> charity.id != charity.selectedCharity.id)
             .map((charity) => (
                 <Link className="card__header" key={charity.id} to={`/${charity.id}`} >
