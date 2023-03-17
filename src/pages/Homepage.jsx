@@ -1,12 +1,8 @@
-import "./Homepage.scss"
-import Header from "../components/Header/Header"
+import "./Homepage.scss";
+import Header from "../components/Header/Header";
 
-function Homepage () {
-    return (
-        <div>
+function Homepage() {
+  return <div></div>;
+}
 
-        </div>
-    );
-};
-
-export default Homepage
+export default Homepage;
