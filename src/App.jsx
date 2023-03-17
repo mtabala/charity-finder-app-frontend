@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,20 @@ function App() {
       </header>
     </div>
   );
+=======
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css';
+
+function App() {
+    return (
+        <BrowserRouter>
+            <Header />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+            </Routes>
+        </BrowserRouter>
+    );
+>>>>>>> feature/masha
 }
 
 export default App;
