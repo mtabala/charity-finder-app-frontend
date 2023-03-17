@@ -12,7 +12,6 @@ function Homepage() {
   return (
     <div className="homepage">
       <Hero />
-      <Footer />
     </div>
   );
 }
